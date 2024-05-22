@@ -1,0 +1,84 @@
+
+    
+  
+  
+  
+  
+  
+  
+.flex-tudo {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(255, 215, 0);
+}
+
+.flex-header {
+    display: flex;
+    width: 1000px;
+    height: 70px;
+    background-color: rgb(95, 158, 160);
+    justify-content: space-between;
+}
+
+.flex-hero{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 650px;
+    background-color: red;
+    justify-content: center;
+    gap: 150px;
+    
+}
+.flex-hero-sub{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 122, 0);
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.flex-hero-sub-sub{
+    width: 250px;
+    height: 50%;
+    background-color: rgb(120, 227, 227);
+}
+
+.flex-container-hero{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+#flex-header-item1{
+    margin: 10px;
+    width: 130px;
+    height: 50px;
+    background-color:rgb(120, 227, 227);
+}
+
+#flex-header-item2{
+    display: flex;
+    margin: 10px;
+    height: 50px;
+    background-color:rgb(120, 227, 227);
+}
+
+#flex-header-item3{
+    margin: 10px;
+    width: 70px;
+    height: 50px;
+    background-color:rgb(120, 227, 227);
+}
+
+.flex-header-sub{
+    margin: 10px;
+    width: 30px;
+    height: 25px;
+    background-color: white;
+}
